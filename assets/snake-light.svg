@@ -1,5 +1,5 @@
-<svg width="800" height="140" viewBox="0 0 800 140" xmlns="http://www.w3.org/2000/svg">
-  <rect width="800" height="140" fill="#EFF1F5" rx="8"/>
+<svg width="1000" height="140" viewBox="0 0 1000 140" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="140" fill="#EFF1F5" rx="8"/>
   
   <!-- Grid dots -->
   <g opacity="0.08">
@@ -169,7 +169,7 @@
     <animate attributeName="opacity" values="0.7;1;0.7" dur="1.5s" repeatCount="indefinite"/>
   </circle>
 
-  <text x="400" y="130" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="#6C6F85">
+  <text x="500" y="130" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="#6C6F85">
     🐍 contribution snake (light mode)
   </text>
 </svg>

@@ -1,4 +1,4 @@
-<svg width="800" height="310" viewBox="0 0 800 310" xmlns="http://www.w3.org/2000/svg">
+<svg width="960" height="310" viewBox="0 0 960 310" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="cardBorder1" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#8BD5CA"/>
@@ -23,96 +23,74 @@
     </linearGradient>
   </defs>
 
-  <rect width="800" height="310" fill="#24273A" rx="12"/>
+  <rect width="960" height="310" fill="#24273A" rx="12"/>
 
-  <!-- Section title -->
-  <text x="400" y="30" text-anchor="middle" font-family="'Courier New', monospace" font-size="18" font-weight="bold" fill="url(#titleGrad)">~/projects</text>
+  <text x="480" y="30" text-anchor="middle" font-family="'Courier New', monospace" font-size="18" font-weight="bold" fill="url(#titleGrad)">~/projects</text>
 
-  <!-- === CARD 1 === -->
-  <g transform="translate(25, 50)">
-    <!-- Portal glow -->
-    <rect x="-3" y="-3" width="236" height="106" rx="10" fill="none" stroke="#8BD5CA" stroke-width="1.2" stroke-opacity="0.15" filter="url(#cardGlow1)">
-      <animate attributeName="stroke-opacity" values="0.1;0.25;0.1" dur="4s" repeatCount="indefinite"/>
-    </rect>
-    <!-- Card body -->
-    <rect x="0" y="0" width="230" height="100" rx="8" fill="#363A4F" stroke="url(#cardBorder1)" stroke-width="1" stroke-opacity="0.4"/>
-    <!-- Portal rings decoration (top-right) -->
-    <g transform="translate(195, 15)" opacity="0.15">
-      <circle cx="0" cy="0" r="12" fill="none" stroke="#8BD5CA" stroke-width="1.5" stroke-dasharray="4 3">
-        <animate attributeName="stroke-dashoffset" from="0" to="14" dur="2s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="0" cy="0" r="6" fill="none" stroke="#A6DA95" stroke-width="1"/>
-    </g>
-    <!-- Project name -->
-    <text x="15" y="30" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="bold" fill="#8BD5CA">Project Alpha</text>
-    <!-- Description -->
-    <text x="15" y="55" font-family="'Segoe UI', sans-serif" font-size="11" fill="#A5ADCB">
-      <tspan x="15" dy="0">A full-stack web application built</tspan>
-      <tspan x="15" dy="16">with Next.js and FastAPI.</tspan>
-      <tspan x="15" dy="16" fill="#6E738D">nextjs · fastapi · postgres</tspan>
-    </text>
-    <!-- Link indicator -->
-    <text x="200" y="88" text-anchor="end" font-family="'Courier New', monospace" font-size="11" fill="#8BD5CA" opacity="0.5">↗</text>
-  </g>
+  <!-- CARD 1: x=80, w=250 -->
+  <rect x="77" y="47" width="256" height="106" rx="10" fill="none" stroke="#8BD5CA" stroke-width="1.2" stroke-opacity="0.15" filter="url(#cardGlow1)">
+    <animate attributeName="stroke-opacity" values="0.1;0.25;0.1" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="80" y="50" width="250" height="100" rx="8" fill="#363A4F" stroke="url(#cardBorder1)" stroke-width="1" stroke-opacity="0.4"/>
+  <circle cx="280" cy="65" r="12" fill="none" stroke="#8BD5CA" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.15">
+    <animate attributeName="stroke-dashoffset" from="0" to="14" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="280" cy="65" r="6" fill="none" stroke="#A6DA95" stroke-width="1" opacity="0.15"/>
+  <text x="95" y="80" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="bold" fill="#8BD5CA">Project Alpha</text>
+  <text font-family="'Segoe UI', sans-serif" font-size="11" fill="#A5ADCB">
+    <tspan x="95" y="105">A full-stack web application built</tspan>
+    <tspan x="95" y="121">with Next.js and FastAPI.</tspan>
+    <tspan x="95" y="137" fill="#6E738D">nextjs · fastapi · postgres</tspan>
+  </text>
+  <text x="300" y="138" text-anchor="end" font-family="'Courier New', monospace" font-size="11" fill="#8BD5CA" opacity="0.5">↗</text>
 
-  <!-- === CARD 2 === -->
-  <g transform="translate(285, 50)">
-    <rect x="-3" y="-3" width="236" height="106" rx="10" fill="none" stroke="#C6A0F6" stroke-width="1.2" stroke-opacity="0.15" filter="url(#cardGlow1)">
-      <animate attributeName="stroke-opacity" values="0.1;0.25;0.1" dur="5s" repeatCount="indefinite" begin="1s"/>
-    </rect>
-    <rect x="0" y="0" width="230" height="100" rx="8" fill="#363A4F" stroke="url(#cardBorder2)" stroke-width="1" stroke-opacity="0.4"/>
-    <g transform="translate(195, 15)" opacity="0.15">
-      <circle cx="0" cy="0" r="12" fill="none" stroke="#C6A0F6" stroke-width="1.5" stroke-dasharray="4 3">
-        <animate attributeName="stroke-dashoffset" from="0" to="14" dur="2.5s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="0" cy="0" r="6" fill="none" stroke="#B7BDF8" stroke-width="1"/>
-    </g>
-    <text x="15" y="30" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="bold" fill="#C6A0F6">Project Nebula</text>
-    <text x="15" y="55" font-family="'Segoe UI', sans-serif" font-size="11" fill="#A5ADCB">
-      <tspan x="15" dy="0">Microservices architecture with</tspan>
-      <tspan x="15" dy="16">Django + DRF backend.</tspan>
-      <tspan x="15" dy="16" fill="#6E738D">django · drf · redis · docker</tspan>
-    </text>
-    <text x="200" y="88" text-anchor="end" font-family="'Courier New', monospace" font-size="11" fill="#C6A0F6" opacity="0.5">↗</text>
-  </g>
+  <!-- CARD 2: x=355, w=250 -->
+  <rect x="352" y="47" width="256" height="106" rx="10" fill="none" stroke="#C6A0F6" stroke-width="1.2" stroke-opacity="0.15" filter="url(#cardGlow1)">
+    <animate attributeName="stroke-opacity" values="0.1;0.25;0.1" dur="5s" repeatCount="indefinite" begin="1s"/>
+  </rect>
+  <rect x="355" y="50" width="250" height="100" rx="8" fill="#363A4F" stroke="url(#cardBorder2)" stroke-width="1" stroke-opacity="0.4"/>
+  <circle cx="555" cy="65" r="12" fill="none" stroke="#C6A0F6" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.15">
+    <animate attributeName="stroke-dashoffset" from="0" to="14" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="555" cy="65" r="6" fill="none" stroke="#B7BDF8" stroke-width="1" opacity="0.15"/>
+  <text x="370" y="80" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="bold" fill="#C6A0F6">Project Nebula</text>
+  <text font-family="'Segoe UI', sans-serif" font-size="11" fill="#A5ADCB">
+    <tspan x="370" y="105">Microservices architecture with</tspan>
+    <tspan x="370" y="121">Django + DRF backend.</tspan>
+    <tspan x="370" y="137" fill="#6E738D">django · drf · redis · docker</tspan>
+  </text>
+  <text x="575" y="138" text-anchor="end" font-family="'Courier New', monospace" font-size="11" fill="#C6A0F6" opacity="0.5">↗</text>
 
-  <!-- === CARD 3 === -->
-  <g transform="translate(545, 50)">
-    <rect x="-3" y="-3" width="236" height="106" rx="10" fill="none" stroke="#F5A97F" stroke-width="1.2" stroke-opacity="0.15" filter="url(#cardGlow1)">
-      <animate attributeName="stroke-opacity" values="0.1;0.25;0.1" dur="4.5s" repeatCount="indefinite" begin="2s"/>
-    </rect>
-    <rect x="0" y="0" width="230" height="100" rx="8" fill="#363A4F" stroke="url(#cardBorder3)" stroke-width="1" stroke-opacity="0.4"/>
-    <g transform="translate(195, 15)" opacity="0.15">
-      <circle cx="0" cy="0" r="12" fill="none" stroke="#F5A97F" stroke-width="1.5" stroke-dasharray="4 3">
-        <animate attributeName="stroke-dashoffset" from="0" to="14" dur="3s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="0" cy="0" r="6" fill="none" stroke="#ED8796" stroke-width="1"/>
-    </g>
-    <text x="15" y="30" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="bold" fill="#F5A97F">Project Quasar</text>
-    <text x="15" y="55" font-family="'Segoe UI', sans-serif" font-size="11" fill="#A5ADCB">
-      <tspan x="15" dy="0">Real-time analytics dashboard</tspan>
-      <tspan x="15" dy="16">with WebSocket streaming.</tspan>
-      <tspan x="15" dy="16" fill="#6E738D">react · websockets · mongodb</tspan>
-    </text>
-    <text x="200" y="88" text-anchor="end" font-family="'Courier New', monospace" font-size="11" fill="#F5A97F" opacity="0.5">↗</text>
-  </g>
+  <!-- CARD 3: x=630, w=250 -->
+  <rect x="627" y="47" width="256" height="106" rx="10" fill="none" stroke="#F5A97F" stroke-width="1.2" stroke-opacity="0.15" filter="url(#cardGlow1)">
+    <animate attributeName="stroke-opacity" values="0.1;0.25;0.1" dur="4.5s" repeatCount="indefinite" begin="2s"/>
+  </rect>
+  <rect x="630" y="50" width="250" height="100" rx="8" fill="#363A4F" stroke="url(#cardBorder3)" stroke-width="1" stroke-opacity="0.4"/>
+  <circle cx="830" cy="65" r="12" fill="none" stroke="#F5A97F" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.15">
+    <animate attributeName="stroke-dashoffset" from="0" to="14" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="830" cy="65" r="6" fill="none" stroke="#ED8796" stroke-width="1" opacity="0.15"/>
+  <text x="645" y="80" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="bold" fill="#F5A97F">Project Quasar</text>
+  <text font-family="'Segoe UI', sans-serif" font-size="11" fill="#A5ADCB">
+    <tspan x="645" y="105">Real-time analytics dashboard</tspan>
+    <tspan x="645" y="121">with WebSocket streaming.</tspan>
+    <tspan x="645" y="137" fill="#6E738D">react · websockets · mongodb</tspan>
+  </text>
+  <text x="850" y="138" text-anchor="end" font-family="'Courier New', monospace" font-size="11" fill="#F5A97F" opacity="0.5">↗</text>
 
-  <!-- === Featured repo banner === -->
-  <g transform="translate(25, 180)">
-    <rect x="0" y="0" width="750" height="40" rx="8" fill="#363A4F" stroke="#C6A0F6" stroke-width="0.5" stroke-opacity="0.2"/>
-    <text x="20" y="15" font-family="'Courier New', monospace" font-size="12" fill="#6E738D">✦</text>
-    <text x="40" y="15" font-family="'Courier New', monospace" font-size="12" fill="#A5ADCB">git clone</text>
-    <text x="120" y="15" font-family="'Courier New', monospace" font-size="12" fill="#8BD5CA">https://github.com/bytistic/</text>
-    <rect x="370" y="16" width="3" height="14" fill="#C6A0F6" opacity="0.5">
-      <animate attributeName="opacity" values="0.3;1;0.3" dur="0.8s" repeatCount="indefinite"/>
-    </rect>
-  </g>
+  <!-- Featured repo banner: x=80, w=800 -->
+  <rect x="80" y="180" width="800" height="40" rx="8" fill="#363A4F" stroke="#C6A0F6" stroke-width="0.5" stroke-opacity="0.2"/>
+  <text x="100" y="195" font-family="'Courier New', monospace" font-size="12" fill="#6E738D">✦</text>
+  <text x="120" y="195" font-family="'Courier New', monospace" font-size="12" fill="#A5ADCB">git clone</text>
+  <text x="200" y="195" font-family="'Courier New', monospace" font-size="12" fill="#8BD5CA">https://github.com/bytistic/</text>
+  <!-- Cursor aligned to URL end (~29 chars × ~7.2px = ~209px from x=200 → x=409) -->
+  <rect x="411" y="196" width="3" height="14" fill="#C6A0F6" opacity="0.5">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="0.8s" repeatCount="indefinite"/>
+  </rect>
 
-  <!-- Bottom decoration -->
-  <line x1="120" y1="240" x2="680" y2="240" stroke="url(#titleGrad)" stroke-width="0.5" opacity="0.1"/>
-  
-  <!-- More projects hint -->
-  <text x="400" y="265" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#6E738D">
+  <line x1="120" y1="240" x2="840" y2="240" stroke="url(#titleGrad)" stroke-width="0.5" opacity="0.1"/>
+
+  <text x="480" y="265" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#6E738D">
     ⬡ explore more repositories below ⬡
   </text>
 </svg>

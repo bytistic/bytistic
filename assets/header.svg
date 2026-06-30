@@ -1,4 +1,4 @@
-<svg width="800" height="350" viewBox="0 0 800 350" xmlns="http://www.w3.org/2000/svg">
+<svg width="960" height="350" viewBox="0 0 960 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#C6A0F6"/>
@@ -26,32 +26,32 @@
   </defs>
 
   <!-- Background -->
-  <rect width="800" height="350" fill="#24273A"/>
+  <rect width="960" height="350" fill="#24273A" rx="12"/>
 
   <!-- Background grid (subtle) -->
   <g opacity="0.03" stroke="#C6A0F6" stroke-width="0.5">
-    <line x1="0" y1="50" x2="800" y2="50"/>
-    <line x1="0" y1="100" x2="800" y2="100"/>
-    <line x1="0" y1="150" x2="800" y2="150"/>
-    <line x1="0" y1="200" x2="800" y2="200"/>
-    <line x1="0" y1="250" x2="800" y2="250"/>
-    <line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="50" x2="960" y2="50"/>
+    <line x1="0" y1="100" x2="960" y2="100"/>
+    <line x1="0" y1="150" x2="960" y2="150"/>
+    <line x1="0" y1="200" x2="960" y2="200"/>
+    <line x1="0" y1="250" x2="960" y2="250"/>
+    <line x1="0" y1="300" x2="960" y2="300"/>
     <line x1="200" y1="0" x2="200" y2="350"/>
     <line x1="400" y1="0" x2="400" y2="350"/>
-    <line x1="600" y1="0" x2="600" y2="350"/>
+    <line x1="720" y1="0" x2="720" y2="350"/>
   </g>
 
   <!-- Portal decoration (Rick and Morty style) -->
-  <g transform="translate(650, 175)">
-    <animateTransform attributeName="transform" type="rotate" from="0 650 175" to="360 650 175" dur="60s" repeatCount="indefinite" additive="replace"/>
+  <g transform="translate(780, 175)">
+    <animateTransform attributeName="transform" type="rotate" from="0 780 175" to="360 780 175" dur="60s" repeatCount="indefinite" additive="replace"/>
     <circle cx="0" cy="0" r="130" fill="url(#portalGrad)">
       <animate attributeName="r" values="130;140;130" dur="4s" repeatCount="indefinite"/>
     </circle>
   </g>
 
   <!-- Portal rings -->
-  <g transform="translate(650, 175)">
-    <animateTransform attributeName="transform" type="rotate" from="360 650 175" to="0 650 175" dur="40s" repeatCount="indefinite" additive="replace"/>
+  <g transform="translate(780, 175)">
+    <animateTransform attributeName="transform" type="rotate" from="360 780 175" to="0 780 175" dur="40s" repeatCount="indefinite" additive="replace"/>
     <circle cx="0" cy="0" r="90" fill="none" stroke="url(#portalRing)" stroke-width="1.5" stroke-dasharray="8 6">
       <animate attributeName="stroke-dashoffset" from="0" to="28" dur="2s" repeatCount="indefinite"/>
     </circle>
@@ -64,7 +64,7 @@
   </g>
 
   <!-- Byte icon (8 bits) -->
-  <g transform="translate(650, 60)" opacity="0.15">
+  <g transform="translate(780, 60)" opacity="0.15">
     <rect x="0" y="0" width="8" height="8" rx="1" fill="#8BD5CA">
       <animate attributeName="opacity" values="0.15;0.4;0.15" dur="2s" repeatCount="indefinite" begin="0s"/>
     </rect>
@@ -153,19 +153,13 @@
   </rect>
 
   <!-- Subtitle (fades in after typing) -->
-  <text x="400" y="230" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" fill="#A5ADCB" opacity="0">
+  <text x="480" y="240" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" fill="#A5ADCB" opacity="0">
     Software Architect &amp; Full Stack Developer
     <animate attributeName="opacity" from="0" to="1" dur="0.8s" fill="freeze" begin="3.2s"/>
   </text>
 
-  <!-- Tags (fade in after subtitle) -->
-  <text x="400" y="260" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" fill="#6E738D" opacity="0">
-    Python · TypeScript · NestJS · Next.js · Django · FastAPI · React · Angular · PostgreSQL · AWS
-    <animate attributeName="opacity" from="0" to="1" dur="0.8s" fill="freeze" begin="4s"/>
-  </text>
-
-  <!-- Decorative line under text -->
-  <line x1="200" y1="285" x2="600" y2="285" stroke="url(#headerGrad)" stroke-width="1" opacity="0">
-    <animate attributeName="opacity" from="0" to="0.3" dur="1s" fill="freeze" begin="4.5s"/>
+  <!-- Decorative line under subtitle -->
+  <line x1="240" y1="280" x2="720" y2="280" stroke="url(#headerGrad)" stroke-width="1" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.3" dur="1s" fill="freeze" begin="4s"/>
   </line>
 </svg>
