@@ -36,11 +36,11 @@
     <animate attributeName="stroke-dashoffset" from="0" to="14" dur="2s" repeatCount="indefinite"/>
   </circle>
   <circle cx="280" cy="65" r="6" fill="none" stroke="#A6DA95" stroke-width="1" opacity="0.15"/>
-  <text x="95" y="80" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="bold" fill="#8BD5CA">Project Alpha</text>
+  <text x="95" y="80" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="bold" fill="#8BD5CA">MMORPG.ts</text>
   <text font-family="'Segoe UI', sans-serif" font-size="11" fill="#A5ADCB">
-    <tspan x="95" y="105">A full-stack web application built</tspan>
-    <tspan x="95" y="121">with Next.js and FastAPI.</tspan>
-    <tspan x="95" y="137" fill="#6E738D">nextjs · fastapi · postgres</tspan>
+    <tspan x="95" y="105">A full-stack game engine for web</tspan>
+    <tspan x="95" y="121">&amp; mobile to build classic 2D MMORPGs.</tspan>
+    <tspan x="95" y="137" fill="#6E738D">typescript · nestjs · socket.io · phaserjs</tspan>
   </text>
   <text x="300" y="138" text-anchor="end" font-family="'Courier New', monospace" font-size="11" fill="#8BD5CA" opacity="0.5">↗</text>
 
@@ -53,11 +53,11 @@
     <animate attributeName="stroke-dashoffset" from="0" to="14" dur="2.5s" repeatCount="indefinite"/>
   </circle>
   <circle cx="555" cy="65" r="6" fill="none" stroke="#B7BDF8" stroke-width="1" opacity="0.15"/>
-  <text x="370" y="80" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="bold" fill="#C6A0F6">Project Nebula</text>
+  <text x="370" y="80" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="bold" fill="#C6A0F6">Architecture Orchestrator</text>
   <text font-family="'Segoe UI', sans-serif" font-size="11" fill="#A5ADCB">
-    <tspan x="370" y="105">Microservices architecture with</tspan>
-    <tspan x="370" y="121">Django + DRF backend.</tspan>
-    <tspan x="370" y="137" fill="#6E738D">django · drf · redis · docker</tspan>
+    <tspan x="370" y="105">Streamlines project architecture by</tspan>
+    <tspan x="370" y="121">orchestrating repo merges in an ecosystem.</tspan>
+    <tspan x="370" y="137" fill="#6E738D">python · django · drf · react</tspan>
   </text>
   <text x="575" y="138" text-anchor="end" font-family="'Courier New', monospace" font-size="11" fill="#C6A0F6" opacity="0.5">↗</text>
 
@@ -70,11 +70,11 @@
     <animate attributeName="stroke-dashoffset" from="0" to="14" dur="3s" repeatCount="indefinite"/>
   </circle>
   <circle cx="830" cy="65" r="6" fill="none" stroke="#ED8796" stroke-width="1" opacity="0.15"/>
-  <text x="645" y="80" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="bold" fill="#F5A97F">Project Quasar</text>
+  <text x="645" y="80" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="bold" fill="#F5A97F">Underwhelmed</text>
   <text font-family="'Segoe UI', sans-serif" font-size="11" fill="#A5ADCB">
-    <tspan x="645" y="105">Real-time analytics dashboard</tspan>
-    <tspan x="645" y="121">with WebSocket streaming.</tspan>
-    <tspan x="645" y="137" fill="#6E738D">react · websockets · mongodb</tspan>
+    <tspan x="645" y="105">Helps neurodivergent people manage</tspan>
+    <tspan x="645" y="121">events, todos, habits &amp; finances.</tspan>
+    <tspan x="645" y="137" fill="#6E738D">typescript · nestjs · react · vite</tspan>
   </text>
   <text x="850" y="138" text-anchor="end" font-family="'Courier New', monospace" font-size="11" fill="#F5A97F" opacity="0.5">↗</text>
 
