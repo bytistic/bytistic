@@ -1,4 +1,4 @@
-<svg width="800" height="310" viewBox="0 0 800 310" xmlns="http://www.w3.org/2000/svg">
+<svg width="960" height="310" viewBox="0 0 960 310" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="cardBorder1" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#8BD5CA"/>
@@ -23,10 +23,10 @@
     </linearGradient>
   </defs>
 
-  <rect width="800" height="310" fill="#24273A" rx="12"/>
+  <rect width="960" height="310" fill="#24273A" rx="12"/>
 
   <!-- Section title -->
-  <text x="400" y="30" text-anchor="middle" font-family="'Courier New', monospace" font-size="18" font-weight="bold" fill="url(#titleGrad)">~/projects</text>
+  <text x="480" y="30" text-anchor="middle" font-family="'Courier New', monospace" font-size="18" font-weight="bold" fill="url(#titleGrad)">~/projects</text>
 
   <!-- === CARD 1 (base x=25, y=50, w=230, h=100) === -->
   <!-- Portal glow border -->
@@ -97,10 +97,10 @@
   </rect>
 
   <!-- Bottom decoration -->
-  <line x1="120" y1="240" x2="680" y2="240" stroke="url(#titleGrad)" stroke-width="0.5" opacity="0.1"/>
+  <line x1="120" y1="240" x2="840" y2="240" stroke="url(#titleGrad)" stroke-width="0.5" opacity="0.1"/>
 
   <!-- More projects hint -->
-  <text x="400" y="265" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#6E738D">
+  <text x="480" y="265" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#6E738D">
     ⬡ explore more repositories below ⬡
   </text>
 </svg>
