@@ -26,7 +26,7 @@
   </defs>
 
   <!-- Background -->
-  <rect width="960" height="350" fill="#24273A"/>
+  <rect width="960" height="350" fill="#24273A" rx="12"/>
 
   <!-- Background grid (subtle) -->
   <g opacity="0.03" stroke="#C6A0F6" stroke-width="0.5">

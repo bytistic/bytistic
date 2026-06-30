@@ -7,7 +7,7 @@
     </linearGradient>
   </defs>
 
-  <rect width="800" height="120" fill="#24273A" rx="12"/>
+  <rect width="800" height="120" fill="#24273A" rx="12" stroke="url(#bioAccent)" stroke-width="1" stroke-opacity="0.2"/>
 
   <!-- Left accent bar -->
   <rect x="0" y="0" width="4" height="120" fill="url(#bioAccent)" rx="2">
@@ -23,7 +23,7 @@
     <tspan x="50" dy="24" fill="#8BD5CA" font-weight="bold">design</tspan>
     <tspan fill="#CAD3F5">, </tspan>
     <tspan fill="#F5A97F" font-weight="bold">technology</tspan>
-    <tspan fill="#CAD3F5"> &amp; </tspan>
+    <tspan fill="#CAD3F5"> and </tspan>
     <tspan fill="#C6A0F6" font-weight="bold">open source</tspan>
     <tspan x="50" dy="24" fill="#A5ADCB">Software Architect who turns ideas into scalable, production-ready systems.</tspan>
   </text>

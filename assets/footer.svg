@@ -10,7 +10,7 @@
   <rect width="600" height="80" fill="#24273A" rx="12"/>
 
   <!-- Rick and Morty portal (mini) -->
-  <g transform="translate(55, 40)" opacity="0.2">
+  <g transform="translate(45, 40)" opacity="0.2">
     <circle cx="0" cy="0" r="18" fill="none" stroke="#A6DA95" stroke-width="2" stroke-dasharray="6 4">
       <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="10s" repeatCount="indefinite" additive="sum"/>
     </circle>
@@ -31,7 +31,7 @@
   </text>
 
   <!-- Byte icon mini -->
-  <g transform="translate(560, 32)" opacity="0.15">
+  <g transform="translate(555, 32)" opacity="0.15">
     <rect x="0" y="0" width="4" height="4" rx="0.5" fill="#C6A0F6"/>
     <rect x="6" y="0" width="4" height="4" rx="0.5" fill="#C6A0F6"/>
     <rect x="0" y="6" width="4" height="4" rx="0.5" fill="#8BD5CA"/>
