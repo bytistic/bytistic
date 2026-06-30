@@ -1,0 +1,41 @@
+<svg width="650" height="120" viewBox="0 0 650 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bioAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C6A0F6"/>
+      <stop offset="50%" stop-color="#8BD5CA"/>
+      <stop offset="100%" stop-color="#F5A97F"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="650" height="120" fill="#24273A" rx="12"/>
+
+  <!-- Left accent bar -->
+  <rect x="0" y="0" width="4" height="120" fill="url(#bioAccent)" rx="2">
+    <animate attributeName="height" from="0" to="120" dur="0.5s" fill="freeze"/>
+  </rect>
+
+  <!-- Quote mark -->
+  <text x="30" y="35" font-family="Georgia, serif" font-size="32" fill="#C6A0F6" opacity="0.3">"</text>
+
+  <!-- Bio text -->
+  <text x="50" y="45" font-family="'Segoe UI', Helvetica, sans-serif" font-size="14" fill="#CAD3F5" letter-spacing="0.5">
+    <tspan x="50" dy="0">Building elegant solutions at the intersection of</tspan>
+    <tspan x="50" dy="24" fill="#8BD5CA" font-weight="bold">design</tspan>
+    <tspan fill="#CAD3F5">, </tspan>
+    <tspan fill="#F5A97F" font-weight="bold">technology</tspan>
+    <tspan fill="#CAD3F5"> &amp; </tspan>
+    <tspan fill="#C6A0F6" font-weight="bold">open source</tspan>
+    <tspan x="50" dy="24" fill="#A5ADCB">Software Architect who turns ideas into scalable, production-ready systems.</tspan>
+  </text>
+
+  <!-- Decorative dots -->
+  <circle cx="620" cy="30" r="2" fill="#C6A0F6" opacity="0.3">
+    <animate attributeName="opacity" values="0.1;0.4;0.1" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="610" cy="60" r="1.5" fill="#8BD5CA" opacity="0.2">
+    <animate attributeName="opacity" values="0.05;0.3;0.05" dur="2.5s" repeatCount="indefinite" begin="0.5s"/>
+  </circle>
+  <circle cx="630" cy="90" r="1" fill="#F5A97F" opacity="0.25">
+    <animate attributeName="opacity" values="0.1;0.35;0.1" dur="3.5s" repeatCount="indefinite" begin="1s"/>
+  </circle>
+</svg>
