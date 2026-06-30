@@ -153,19 +153,13 @@
   </rect>
 
   <!-- Subtitle (fades in after typing) -->
-  <text x="480" y="230" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" fill="#A5ADCB" opacity="0">
+  <text x="480" y="240" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" fill="#A5ADCB" opacity="0">
     Software Architect &amp; Full Stack Developer
     <animate attributeName="opacity" from="0" to="1" dur="0.8s" fill="freeze" begin="3.2s"/>
   </text>
 
-  <!-- Tags (fade in after subtitle) -->
-  <text x="480" y="260" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" fill="#6E738D" opacity="0">
-    Python · TypeScript · NestJS · Next.js · Django · FastAPI · React · Angular · PostgreSQL · AWS
-    <animate attributeName="opacity" from="0" to="1" dur="0.8s" fill="freeze" begin="4s"/>
-  </text>
-
-  <!-- Decorative line under text -->
-  <line x1="240" y1="285" x2="720" y2="285" stroke="url(#headerGrad)" stroke-width="1" opacity="0">
-    <animate attributeName="opacity" from="0" to="0.3" dur="1s" fill="freeze" begin="4.5s"/>
+  <!-- Decorative line under subtitle -->
+  <line x1="240" y1="280" x2="720" y2="280" stroke="url(#headerGrad)" stroke-width="1" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.3" dur="1s" fill="freeze" begin="4s"/>
   </line>
 </svg>
